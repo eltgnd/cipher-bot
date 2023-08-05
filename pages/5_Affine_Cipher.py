@@ -30,10 +30,13 @@ with st.expander('Sample code'):
 st.divider()
 st.radio('What do you want to do?', options, key='job', horizontal=True)
 a,b = 0,0
+
 if st.session_state.job != 'Brute Force':
     st.number_input("'a' value", 1,26,1, key='a')
     st.number_input("'b' value", step=1, key='b')
     a,b = st.session_state.a, st.session_state.b
+else:
+    a = 1
 st.text_area('Type your plaintext below.', key='message')
 
 if a in [1,3,5,7,9,11,15,17,19,21,23,25]:

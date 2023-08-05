@@ -87,7 +87,14 @@ def caesar(job, message, offset=0):
 
 rot13_function = """
 def rot13(message):
-    return caesar('d', message, 13)
+    translated = ''
+    for i in message:
+        if i.isalpha():
+            new_char = alphabet[(alphabet.index(i.lower())-13) % 26] 
+            translated += new_char if i.islower() else new_char.upper()
+        else:
+            translated += i
+    return translated
 """
 
 atbash_function = """

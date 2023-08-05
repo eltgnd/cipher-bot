@@ -9,7 +9,7 @@ set_page(title)
 # playfair, rail fence, autokey, hill, one-time pad
 
 st.title('CipherBot 🤖')
-st.write('Delve into the intriguing world of classical cryptography. Cipher Bot is an educational web app that features classic cryptography techniques. **Understand the magic behind the codes that kept secrets safe throughout history** and learn how simple shifts in letters and mathematical functions can beautifully conceal plaintext into cryptic codes. ✨')
+st.write('Delve into the intriguing world of classical cryptography. CipherBot is an educational web app that features classic cryptography techniques. **Understand the magic behind the codes that kept secrets safe throughout history** and learn how simple shifts in letters and mathematical functions can beautifully conceal plaintext into cryptic codes. ✨')
 
 st.subheader('What can CipherBot do?')
 st.write("""On CipherBot, you'll find detailed explanations of various classic ciphers. Each cipher is presented with a short description, a comprehensive guide explaining how it works, a security rating, and sample code written in Python.""")
