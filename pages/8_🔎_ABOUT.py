@@ -4,7 +4,7 @@ from set_page import set_page
 st.title('About CipherBot 🔎')
 st.write('CipherBot is a passion project that sparked from an exploration of classic cryptography.')
 
-st.image("images\photo.png",width=200)
+# st.image("images\photo.png",width=200)
 with st.container():
     st.caption('The Developer')
     st.write("Hi! I'm Val, a sophomore at Ateneo de Manila University. CipherBot was the result of my interest in programming and cryptography. After exploring some cryptography techniques in my 'Mathematics in the Modern World' course, I challenged myself to implement these ciphers algorithmically on Python. I hope this could help students and anyone really, to learn and appreciate cryptography! 🥳")
